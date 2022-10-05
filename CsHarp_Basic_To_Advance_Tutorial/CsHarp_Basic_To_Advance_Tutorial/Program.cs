@@ -1,6 +1,4 @@
-﻿using CsHarp_Basic_To_Advance_Tutorial.TypeConversion;
-using CsHarp_Basic_To_Advance_Tutorial.ValueOrReferenceTypes;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.NetworkInformation;
@@ -59,11 +57,75 @@ namespace CsHarp_Basic_To_Advance_Tutorial
             #endregion
 
             #region constants
-                //const int constants = 10;
-                //int constantsV = 10;
-                //constants = 10;
-                //constantsV = 10;
-                //Console.WriteLine(constants);
+            //const int constants = 10;
+            //int constantsV = 10;
+            //constants = 10;
+            //constantsV = 10;
+            //Console.WriteLine(constants);
+            #endregion
+
+            #region Decision Statements
+            //int day = 100;
+            //if (day>0)
+            //{
+            //    Console.WriteLine($"Day is {day}");
+            //}else if (day < 0)
+            //{
+            //    Console.WriteLine($"Day is {day}");
+            //}
+            //else
+            //{
+            //    Console.WriteLine($"Day is {day}");
+            //}
+
+            //switch (day)
+            //{
+            //    case 10:
+            //        Console.WriteLine($"Day is {day}");
+            //        break;
+            //    case 20:
+            //        Console.WriteLine($"Day is {day}");
+            //        break;
+            //    case 30:
+            //        Console.WriteLine($"Day is {day}");
+            //        break;
+            //    case 40:
+            //        Console.WriteLine($"Day is {day}");
+            //        break;
+            //    default:
+            //        Console.WriteLine($"Day is {day}");
+            //        break;
+            //}
+
+            #endregion
+
+            #region Loops
+            /*Three part in For Loop 1.Initial Statement 2.Test Condtion 3.increment Statement*/
+
+            //int value = 10;
+            //for (int i = 1; i <= value; i++)
+            //{
+            //    Console.WriteLine($"Result is {i}");
+            //}
+
+            /*Three part in while Loop 1.Initial Statement 2.Test Condtion 3.increment Statement*/
+
+            //int valueV = 1;//Initial Statement
+            //while (valueV<10)//Test Condtion
+            //{
+            //    Console.WriteLine($"Result is {valueV}");
+            //    valueV++;//increment Statement
+            //}
+
+            /*Three part in do-while Loop 1.Initial Statement 2.increment Statement 3.Test Condtion */
+
+            //int valuVV = 1;//Initial Statement
+            //do
+            //{
+            //    Console.WriteLine($"Result is {valuVV}");
+            //    valuVV++;//increment Statement
+            //} while (valuVV<10);//Test Condtion
+
             #endregion
 
             Console.ReadLine();
