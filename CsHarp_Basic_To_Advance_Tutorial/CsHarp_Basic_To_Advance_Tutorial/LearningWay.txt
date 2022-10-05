@@ -1,0 +1,6 @@
+﻿1.Whait C#
+2.Whati is Console
+3.Commenting
+4.DataType
+5.Operator
+6.ValuType and Reference Type
